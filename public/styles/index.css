@@ -1,0 +1,55 @@
+:root{
+    font-size: 10px;
+}
+body{
+    background-color: teal;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    width: fit-content;
+    margin: 40vh auto 5vh;
+    font-size: 4rem;
+}
+button{
+    padding: 1vh 5vh;
+    border-radius: 1vh;
+    font-weight: bolder;
+    color: teal;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 3px 3px 10px 2px rgb(1, 70, 70) ;
+}
+button:active{
+    box-shadow: inset 1px 1px 5px 1px rgb(1, 70, 70) ;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    font-size: 1.2rem;
+    padding-bottom: 3vh;
+    column-gap: 3vh;
+    left: 0;
+    color: aliceblue;
+    font-weight: 900;
+    > div{
+        width: 50%;
+    }
+    >#left-footer{
+        text-align: right;
+    }
+    >#right-footer{
+        text-align: left;
+    }
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: aliceblue;
+}
